@@ -1,7 +1,7 @@
 ---
 title: "W_UP_01"
 author: "Amia Little"
-date: "summer 2020"
+date: "summer 2024"
 output: html_document
 ---
 
@@ -77,3 +77,15 @@ The p-value = 0.00919 which is less than 0.5 therefore we reject th null hypothe
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
+$H_0$: There is no difference between the average number of pushups of line vs skill players
+
+$H_A$: The average number of pushups done by line players is statistically different than that of skill players.
+
+Pushups is numerical. Skill players is categorical
+So I use the NUM~CAT helper file.
+
+This shows that im predicting how many pushups skill and line players can do based upon weight.
+
+This shows that there is a difference in line vs skill player pushups amount. 
+
+The p-value = 0.00919 which is less than 0.5 therefore we reject th null hypothesis and conclude that the average number of pushups done by line players is statistically different than that of skill players.   
